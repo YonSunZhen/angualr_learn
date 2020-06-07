@@ -1,1 +1,8 @@
 <p appHighlight [highlightColor]="'orange'">Highlight me!</p>
+<ng-template [ngIf]="!expression">
+  <div>haha</div>
+</ng-template>
+<div *ngIf="expression">haha</div>
+<div *appUnless="expression">666</div>
+
+

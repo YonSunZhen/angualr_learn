@@ -8,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class DirectiveComponent implements OnInit {
 
   constructor() { }
+  expression = false;
 
   ngOnInit(): void {
   }
