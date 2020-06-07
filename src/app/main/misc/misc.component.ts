@@ -2,11 +2,11 @@ import { Component, OnInit } from '@angular/core';
 import { BehaviorSubject } from 'rxjs';
 
 @Component({
-  selector: 'app-test',
-  templateUrl: './test.component.html',
-  styleUrls: ['./test.component.scss']
+  selector: 'app-misc',
+  templateUrl: './misc.component.html',
+  styleUrls: ['./misc.component.scss']
 })
-export class TestComponent implements OnInit {
+export class MiscComponent implements OnInit {
   title = 'angular-learn';
   arr = [1, 2, 3];
   Observable;
